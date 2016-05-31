@@ -1,0 +1,133 @@
+::selection {
+  background: black;
+}
+::-moz-selection {
+  background: black;
+}
+
+hr {
+  border-color: #f05f40;
+  width: 50px;
+  border-width: 3px;
+}
+
+.headerItem{
+	color: lightgrey;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	-moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+
+.headerItem:hover{
+	color: white;
+}
+
+.header:hover{
+	color: white;
+}
+
+.header{
+	color: lightgrey;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	-moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+
+.headerContainer{
+	background-image: Url('source/header.jpg');
+	height: 800px;
+	width: 100%;
+	background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.headerText{
+	font-size: 18px;
+	color: lightgrey;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.themeButton{
+	background-color: #f05f40;
+	-moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+
+}
+
+a:hover{
+	cursor: pointer;
+}
+
+.themeButton:hover{
+	background-color: #f05f20;
+}
+
+.themeButton2{
+	background-color: white;
+	-moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+
+}
+
+.fix{
+	-moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+
+.themeButton2:hover{
+	background-color: lightgrey;
+}
+
+.btnText{
+	color: white;
+	font-size: 16px;
+}
+
+.headerContainer:hover .fix{background-color: white !important;}
+
+.headerContainer:hover .header{
+	font-size: 15px;
+	color: #f05f40;
+}
+
+.headerContainer:hover .headerItem{
+	color: black;
+}
+
+.headerContainer:hover .headerItem:hover{
+	color: #f05f20;
+}
+
+.imageContainer{
+	position: relative;
+
+}
+
+.cover{
+	background-color: #f05f40;
+	opacity: 0;
+	position: absolute;
+	/*width: 499px;
+	height: 350px;*/
+	width: 100%;
+	height: 100%;
+	z-index: 1030;
+	-moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+
+.toto:hover .cover{
+	opacity: 0.9 !important;
+	cursor: pointer;
+}
